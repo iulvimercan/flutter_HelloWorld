@@ -28,6 +28,7 @@ class MyApp extends StatelessWidget {
         body: Container(
           width: double.infinity,
           padding: const EdgeInsets.all(12),
+          color: Colors.grey[50],
           child: const Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -38,12 +39,17 @@ class MyApp extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.w900,
+                  color: Colors.lightBlueAccent,
                 ),
               ),
               SizedBox(height: 16),
               Text(
                 'This is my first Flutter app. First of many...',
                 textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontWeight: FontWeight.w500,
+                  color: Colors.blue,
+                ),
               ),
             ],
           ),
